@@ -7,6 +7,7 @@ import { LoginModule } from './login/login.module';
 import { HomeModule } from './home/home.module';
 import { WorkModule } from './work/work.module';
 import { QuotationModule } from './quotation/quotation.module';
+import { Layout3Module } from './layout3/layout3.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { QuotationModule } from './quotation/quotation.module';
     LoginModule,
     HomeModule,
     WorkModule,
-    QuotationModule
+    QuotationModule,
+    Layout3Module
   ],
   providers: [],
   bootstrap: [AppComponent]
